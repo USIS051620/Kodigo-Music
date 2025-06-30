@@ -1,0 +1,22 @@
+.home-container {
+  padding: 16px;
+}
+
+.welcome-header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-grid {
+  display: grid;
+  /* Crea columnas responsivas */
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+}

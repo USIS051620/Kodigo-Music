@@ -1,0 +1,88 @@
+.sidebar-container {
+  background-color: #000;
+  color: #b3b3b3;
+  width: 240px;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.sidebar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 0 4px; /* Pequeño ajuste de alineación */
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo general para todos los enlaces de navegación */
+.sidebar-nav li a {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espacio entre el ícono y el texto */
+  padding: 8px 4px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: #b3b3b3; /* Color gris para enlaces inactivos */
+  transition: color 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+/* Efecto al pasar el mouse sobre el enlace */
+.sidebar-nav li a:hover {
+  color: #fff;
+}
+
+/* Estilo para el enlace ACTIVO (la página actual) */
+.sidebar-nav li a.active-link {
+  color: #fff; /* El texto y el ícono se vuelven blancos */
+  background-color: #282828; /* Fondo sutil para el elemento activo */
+}
+
+/* Estilo para las playlists de ejemplo y el divisor */
+.sidebar-playlists {
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sidebar-playlists hr {
+  border: none;
+  height: 1px;
+  background-color: #282828;
+  margin: 20px 0;
+}
+
+.sidebar-footer {
+  margin-top: auto; /* El truco para empujar el footer hacia abajo */
+}
+
+/* El nuevo y mejorado botón de Cerrar Sesión */
+.logout-button {
+  background-color: #1db954; /* Verde Spotify */
+  color: #000; /* Texto negro para contraste */
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  padding: 12px;
+  border-radius: 25px; /* Botón tipo píldora */
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.logout-button:hover {
+  transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+  background-color: #1ed760; /* Verde un poco más brillante */
+}
