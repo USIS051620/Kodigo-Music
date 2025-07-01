@@ -1,5 +1,7 @@
 .library-container {
   padding: 16px;
+  max-width: 1200px; /* <-- AÑADE ESTA LÍNEA */
+  margin: 0 auto; /* <-- AÑADE ESTA LÍNEA PARA CENTRARLO */
 }
 
 .library-header {
