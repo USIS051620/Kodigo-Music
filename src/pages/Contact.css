@@ -57,3 +57,36 @@
       margin-right: 25px;
     }
 }
+
+/* --- ESTILOS PARA EL BOTÓN DE CERRAR SESIÓN MÓVIL --- */
+
+.mobile-logout-section {
+  display: none; /* Oculto por defecto en PC */
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #282828;
+}
+
+.mobile-logout-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #1db954;
+  color: #fff;
+  border: 1px solid #878787;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.mobile-logout-button:hover {
+  border-color: #fff;
+}
+
+/* Media Query para mostrar el botón solo en móviles */
+@media (max-width: 768px) {
+  .mobile-logout-section {
+    display: block; /* Lo hacemos visible en móviles */
+  }
+}
