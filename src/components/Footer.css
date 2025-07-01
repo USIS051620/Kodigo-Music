@@ -1,0 +1,31 @@
+.footer-container {
+  padding: 80px 24px 40px 24px; /* Espacio arriba y abajo para que no se pegue al contenido */
+  margin-top: 50px; /* Margen para separarlo del último elemento de la página */
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap; /* Para que los enlaces se ajusten en pantallas pequeñas */
+  gap: 24px; /* Espacio entre los enlaces */
+  margin-bottom: 30px;
+  border-bottom: 1px solid #282828; /* Línea divisora sutil */
+  padding-bottom: 30px;
+}
+
+.footer-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-copyright span {
+  color: #b3b3b3;
+  font-size: 14px;
+}

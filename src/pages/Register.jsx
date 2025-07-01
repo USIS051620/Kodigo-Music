@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase/config';
 import './Auth.css';
+import SpotifyLogo from '../assets/spotify-logo.svg'; // <-- 1. IMPORTA EL LOGO
 
 const Register = () => {
   const [email, setEmail] = useState('');
@@ -13,18 +14,28 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+    if (password.length < 6) {
+      setError("La contraseña debe tener al menos 6 caracteres.");
+      return;
+    }
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      navigate('/'); // Redirige al dashboard después de registrarse
-    } catch (err) {
-      setError('Error al registrar el usuario. El correo puede que ya esté en uso.');
-      console.error(err);
+      navigate('/');
+    } 
+    // eslint-disable-next-line no-unused-vars
+    catch (err) {
+      setError('Error al registrar. El correo puede que ya esté en uso.');
     }
   };
 
   return (
     <div className="auth-container">
       <div className="auth-form">
+        {/* --- 2. AÑADE EL LOGO AQUÍ --- */}
+        <div className="auth-header">
+          <img src={SpotifyLogo} alt="Logo de Kodigo Music" className="auth-logo" />
+        </div>
+        
         <h2>Regístrate Gratis</h2>
         <form onSubmit={handleSubmit}>
           <input
@@ -36,7 +47,7 @@ const Register = () => {
           />
           <input
             type="password"
-            placeholder="Crea una contraseña"
+            placeholder="Crea una contraseña (mín. 6 caracteres)"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required

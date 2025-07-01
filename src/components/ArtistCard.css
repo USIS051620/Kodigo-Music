@@ -1,0 +1,34 @@
+.artist-card-container {
+  background-color: #181818;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.artist-card-container:hover {
+  background-color: #282828;
+}
+
+.artist-image {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Asegura que sea un círculo perfecto */
+  border-radius: 50%; /* La clave para la imagen redonda */
+  object-fit: cover; /* Evita que la imagen se deforme */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+.artist-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 0 4px 0;
+}
+
+.artist-label {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
