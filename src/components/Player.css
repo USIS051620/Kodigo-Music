@@ -1,3 +1,4 @@
+/* --- ESTILOS PARA PC (NO TOCADOS) --- */
 .player-container {
   background-color: #181818;
   height: 90px;
@@ -27,8 +28,8 @@
 
 .play-icon {
   font-size: 36px;
-  background-color: #fff;
-  color: #000;
+  color: #fff;
+  background-color: #1db954;
   border-radius: 50%;
   padding: 8px;
 }
@@ -41,8 +42,44 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 180px;
+  justify-content: flex-end;
 }
 
 .volume-slider {
   width: 100px;
+}
+
+
+/* --- REGLAS PARA MÓVIL (LOS CAMBIOS SOLO APLICAN AQUÍ) --- */
+@media (max-width: 768px) {
+  .player-container {
+    position: fixed;
+    bottom: 57px;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    padding: 0 16px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #181818;
+    border-top: 1px solid #282828;
+  }
+
+  .player-volume, .player-song-info {
+    display: none;
+  }
+
+  .player-controls {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .play-icon {
+    font-size: 32px;
+  }
 }

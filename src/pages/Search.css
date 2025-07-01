@@ -4,3 +4,11 @@
   gap: 24px;
   margin-top: 20px;
 }
+
+/* --- REGLAS PARA MÓVIL --- */
+@media (max-width: 768px) {
+  .search-page-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

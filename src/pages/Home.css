@@ -20,3 +20,19 @@
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 24px;
 }
+
+/* --- REGLAS PARA MÓVIL --- */
+@media (max-width: 768px) {
+  .welcome-header {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

@@ -23,3 +23,16 @@ body {
   background: linear-gradient(to bottom, #1a1a1a, #000);
   padding: 20px;
 }
+
+/* --- REGLAS PARA MÓVIL --- */
+@media (max-width: 768px) {
+  .sidebar-container {
+    display: none;
+  }
+
+  .main-content {
+    padding: 16px;
+    padding-bottom: 180px;
+  }
+  
+}
