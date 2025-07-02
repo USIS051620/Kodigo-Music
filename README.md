@@ -10,19 +10,19 @@ Este proyecto consiste en una **Single Page Application (SPA)**, Proyecto musica
 
 
 ### 🌐 Enlace al proyecto:
-[🔗 Ver proyecto en Vercel](https://kodigo-music-omega.vercel.app/login)
+[🔗 Ver proyecto en Vercel](https://kodigo-music-nine.vercel.app/login)
 
 
 ### 📱 Proyecto en celular:
 <p style="text-align: center;">
-  <img src="/Kodigo-Music/public/img/Celular1.png" alt="Celular 1" width="300"/>
-  <img src="/Kodigo-Music/public/img/Celular2.png" alt="Celular 2" width="300"/>
-  <img src="/Kodigo-Music/public/img/Celular3.png" alt="Celular 3" width="300"/>
+  <img src="/public/img/Celular1.png" alt="Celular 1" width="300"/>
+  <img src="/public/img/Celular2.png" alt="Celular 2" width="300"/>
+  <img src="/public/img/Celular3.png" alt="Celular 3" width="300"/>
 </p>
 
 ### 🖥️ Proyecto en computadora:
 <p style="text-align: center;">
-  <img src="/Kodigo-Music/public/img/PC1.png" alt="PC 1" width="300"/>
-  <img src="/Kodigo-Music/public/img/PC2.png" alt="PC 2" width="300"/>
-  <img src="/Kodigo-Music/public/img/PC3.png" alt="PC 3" width="300"/>
+  <img src="/public/img/PC1.png" alt="PC 1" width="300"/>
+  <img src="/public/img/PC2.png" alt="PC 2" width="300"/>
+  <img src="/public/img/PC3.png" alt="PC 3" width="300"/>
 </p>
