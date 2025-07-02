@@ -1,12 +1,28 @@
-# React + Vite
+## 🌐 Proyecto: Kodigo Music FSJ28
+Este proyecto consiste en una **Single Page Application (SPA)**, Proyecto musical interactivo desarrollado con ReactJS, que toma como referencia plataformas reconocidas del streaming como Spotify, Deezer y Apple Music. Ofrece una interfaz moderna, navegación fluida mediante rutas dinámicas y una arquitectura basada en componentes reutilizables.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📖 Lo que aprendí:
+- Cómo iniciar y estructurar un proyecto desde cero con ReactJS utilizando componentes funcionales.
+- Implementación de React Router DOM para gestionar múltiples rutas y navegar entre diferentes páginas de forma dinámica.
+- Integración de Firebase para la autenticación de usuarios mediante formularios de registro y login.
+- Configuración y despliegue del proyecto en Vercel, aprendiendo a conectar el repositorio y automatizar.
+- Gestión de formularios y validaciones básicas para mejorar la experiencia del usuario.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Enlace al proyecto:
+[🔗 Ver proyecto en Vercel](https://kodigo-music-omega.vercel.app/login)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📱 Proyecto en celular:
+<p style="text-align: center;">
+  <img src="/Kodigo-Music/public/img/Celular1.png" alt="Celular 1" width="300"/>
+  <img src="/Kodigo-Music/public/img/Celular2.png" alt="Celular 2" width="300"/>
+  <img src="/Kodigo-Music/public/img/Celular3.png" alt="Celular 3" width="300"/>
+</p>
+
+### 🖥️ Proyecto en computadora:
+<p style="text-align: center;">
+  <img src="/Kodigo-Music/public/img/PC1.png" alt="PC 1" width="300"/>
+  <img src="/Kodigo-Music/public/img/PC2.png" alt="PC 2" width="300"/>
+  <img src="/Kodigo-Music/public/img/PC3.png" alt="PC 3" width="300"/>
+</p>
