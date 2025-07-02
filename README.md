@@ -10,7 +10,7 @@ Este proyecto consiste en una **Single Page Application (SPA)**, Proyecto musica
 
 
 ### 🌐 Enlace al proyecto:
-[🔗 Ver proyecto en Vercel](https://kodigo-music-nine.vercel.app/login)
+[🔗 Ver proyecto en Vercel](https://kodigo-music-nine.vercel.app)
 
 
 ### 📱 Proyecto en celular:
